@@ -1,14 +1,14 @@
 body{
   margin: 0;
-  font-family: sans-serif;
-  letter-spacing: .8px;
+  font-family: 'Open Sans',sans-serif;
+  letter-spacing: 0px;
 }
 nav {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 14.4px;
   background-color: #C12127;
   color: rgba(255,255,255,0.8);
-  padding: 13px 20px 13px 20px;
+  padding: 14.5px 20px;
   height: auto;
   width: calc(100%-20px);
   overflow: hidden;
@@ -56,7 +56,7 @@ header{
 }
 #searchBar #logo{
   padding:20px;
-  height: 50px;
+  height: 49px;
 }
 #searchBar input,#searchBar button{
   padding:16px;
@@ -82,35 +82,39 @@ header{
   height: 19px;;
 }
 #searchBar button svg g{
-  stroke:#d0d0d0;
+  stroke:#ffffff;
 }
 #searchBar a,#searchBar a:visited,#searchBar a:active{
   text-decoration: none;
-  
 }
 #searchBar #bear{
   height: 45px;
 }
 #presentation{
-  margin:0 auto;
+  margin:25px auto;
   width:70%;
-  height: 350px;;
+  height: 322px;
+}
+#presentation > * {
+  margin:0px 30px 18px;
 }
 #presentation h1{
-  font-size: 46px;
+  font-size: 48px;
   font-weight: 300
 }
 #presentation p{
-  width: 55%;
+  width: 52%;
   font-size: 18px;
 }
 #presentation button{
   background:  rgb(240, 146, 51);
   border:0;
   border-radius:30px;
-  padding:12px 30px 10px ;
+  padding:8px 25px;
   color:white;
   font-size: 18px;
-  letter-spacing: 1px;
   cursor: pointer;
+  font-family: 'Open Sans',sans-serif;
+  margin-top:10px;
 }
+section{padding:100px;}
