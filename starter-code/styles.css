@@ -1,38 +1,116 @@
 body{
-    margin: 0;
+  margin: 0;
+  font-family: sans-serif;
+  letter-spacing: .8px;
 }
 nav {
-    font-family: sans-serif;
-    font-weight: 300;
-    font-size: 14px;
-    background-color: #C12127;
-    color: rgba(255,255,255,0.8);
-    padding: 13px 20px 13px 20px;
-    height: auto;
-    width: calc(100%-20px);
-    overflow: hidden;
-    letter-spacing: .8px;
+  font-weight: 300;
+  font-size: 14px;
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 13px 20px 13px 20px;
+  height: auto;
+  width: calc(100%-20px);
+  overflow: hidden;
 }
 nav a {
-    color: rgba(255,255,255,0.8);
-    text-decoration: none;
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
 }
 .top-links {
-    display: inline-block;
-    float: right;
-    padding: 0;
-    margin: 0;
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0;
 }
 .top-links li {
-    display: inline-block;
-    margin-left:16px;
+  display: inline-block;
+  margin-left:16px;
 }
 .top-left{
-    float:left;
+  float:left;
 }
 #acronym{
-    text-align: center;
+  text-align: center;
 }
 #heart{
-    margin-right: 20px;
+  margin-right: 20px;
+}
+header{
+  /*Font - White Button - rgb(240, 146, 51) Background - rgb(32, 101, 136) Search Bar Background - rgb(31, 82, 111) */
+  color: white;
+  background: rgb(32, 101, 136) url(https://static.npmjs.com/images/hero-cityscape.svg);
+  background-size: contain;
+  background-attachment: local;
+  /*min-height: 300px;*/
+}
+#searchBar{
+  width: 100%;
+  aheight: 50px;
+}
+#searchBar{
+  color:rgba(255,255,255,0.8);
+}
+#searchBar img{
+  vertical-align: middle;
+}
+#searchBar #logo{
+  padding:20px;
+  height: 50px;
+}
+#searchBar input,#searchBar button{
+  padding:16px;
+  background:rgb(31, 82, 111);
+  border:1px rgba(255, 255, 255, 0.2) solid;
+  font-size: 16px;
+  letter-spacing: .8px;
+  color:rgba(255,255,255,0.8);
+}
+#searchBar input{
+  width:calc(100% - 430px);
+  vertical-align: middle;
+}
+#searchBar button {
+  border-left:0;
+  margin-right:15px;
+  padding-bottom:9.6px;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#searchBar button svg{
+  width:19px;
+  height: 19px;;
+}
+#searchBar button svg g{
+  stroke:#d0d0d0;
+}
+#searchBar a,#searchBar a:visited,#searchBar a:active{
+  text-decoration: none;
+  
+}
+#searchBar #bear{
+  height: 45px;
+}
+#presentation{
+  margin:0 auto;
+  width:70%;
+  height: 350px;;
+}
+#presentation h1{
+  font-size: 46px;
+  font-weight: 300
+}
+#presentation p{
+  width: 55%;
+  font-size: 18px;
+}
+#presentation button{
+  background:  rgb(240, 146, 51);
+  border:0;
+  border-radius:30px;
+  padding:12px 30px 10px ;
+  color:white;
+  font-size: 18px;
+  letter-spacing: 1px;
+  cursor: pointer;
 }
