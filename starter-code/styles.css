@@ -146,3 +146,28 @@ header{
 #collaboration li{
   padding:5px;
 }
+#whatIs{
+  position:relative;
+  height: 500px;
+  /*background-image: url(./images/mountain-climbing-bears.svg); el archivo estaba pero no funcionaba  */ 
+  background-image: url(https://web.archive.org/web/20180208035059im_/https://www.npmjs.com/static/images/npm-is-BOXES.svg);
+  background-size: 100% 500px;
+  background-repeat: no-repeat;
+}
+#whatIs button{
+  font-size: 16px;
+  background :rgb(49, 68, 88);
+}
+#whatIs > div {
+ position:absolute;
+ top:105px;
+ color: rgba(255,255,255,0.9);
+ right: 65%;
+ max-width: 345px;
+ padding:0px;
+}
+#whatIs h1{
+  font-size: 37px;
+  font-weight: normal;margin:0;
+}
+#whatIs p {margin:25px 0 10px;}
