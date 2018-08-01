@@ -37,6 +37,7 @@ nav a,#searchBar a,#collaboration a {
 }
 header{
   /*Font - White Button - rgb(240, 146, 51) Background - rgb(32, 101, 136) Search Bar Background - rgb(31, 82, 111) */
+  /*background: rgb(32, 101, 136) url(images/city-scape.svg); no funciona*/
   background: rgb(32, 101, 136) url(https://static.npmjs.com/images/hero-cityscape.svg);
   background-size: contain;
   background-attachment: local;
@@ -149,8 +150,10 @@ header{
 #whatIs{
   position:relative;
   height: 500px;
-  /*background-image: url(./images/mountain-climbing-bears.svg); el archivo estaba pero no funcionaba  */ 
-  background-image: url(https://web.archive.org/web/20180208035059im_/https://www.npmjs.com/static/images/npm-is-BOXES.svg);
+  /*
+  background-image: url(./images/forklift.svg); el archivo estaba pero no funcionaba  
+  */ 
+  background-image: url(https://static.npmjs.com/images/npm-is-BOXES.svg);
   background-size: 100% 500px;
   background-repeat: no-repeat;
 }
@@ -170,4 +173,40 @@ header{
   font-size: 37px;
   font-weight: normal;margin:0;
 }
-#whatIs p {margin:25px 0 10px;}
+#whatIs p {
+  margin:25px 0 10px;
+}
+#whatCan{
+  color:rgb(135, 145, 156);
+  margin:0 auto;
+  max-width: 1150px;
+  text-align: center;
+  padding:35px 0;
+  overflow: hidden;
+}
+#whatCan h1{
+  color:rgb(83, 88, 98);
+  font-size: 35px;
+  font-weight: normal;
+}
+#whatCan a{
+  text-decoration: none;
+  color:rgb(208,74,73);
+}
+#whatCan section{
+  float:left;
+  max-width:calc(33% - 120px);
+  padding:20px 60px;
+}
+#whatCan figure{
+  margin:0px;
+}
+#whatCan figcaption{
+  color:rgb(83, 88, 98);
+  font-size: 20px;
+  font-weight: bold;
+}
+#whatCan img {
+  width: 100px;
+  height: 100px;
+}
