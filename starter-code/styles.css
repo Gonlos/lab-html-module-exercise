@@ -8,6 +8,9 @@ h1{
   margin:0;
   font-weight: 300;
 }
+.center{
+  margin:0 auto;
+}
 nav {
   font-size: 14.4px;
   background-color: #C12127;
@@ -79,9 +82,9 @@ header{
   height: 45px;
 }
 #presentation{
-  margin:25px auto 0 auto;
   max-width: 1100px;
   height: 322px;
+  padding-top:25px;
 }
 #presentation > * {
   margin:0px 30px 18px;
@@ -108,13 +111,11 @@ header{
 }
 #collaboration{
   background-color:rgb(39, 53, 71);
-  padding: 70px 0 70px 30px;
+  padding: 80px 0 80px 30px;
 }
 #collaboration > div {
   min-height: 365px;
-  width: calc(100%-10px);
   max-width: 1200px;
-  margin: 10px auto;
   background-image: url(./images/collaboration.svg);
   background-repeat: no-repeat;
   background-size: 50% 350px ; 
@@ -165,7 +166,6 @@ header{
 }
 #whatCan{
   color:rgb(135, 145, 156);
-  margin:0 auto;
   max-width: 1150px;
   text-align: center;
   padding:55px 0 35px 0;
